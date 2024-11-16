@@ -32,7 +32,18 @@ flutter create myapp
 cd myapp
 ```
 
-### 3. Run the app
+### 3. Debug the hell of JDK version
+
+Install JDK 17 (or whatever version is required by Flutter)
+
+```bash
+asdf plugin add java
+asdf install java adoptopenjdk-17.0.0+12
+```
+
+```bash
+flutter config --jdk-dir $WHERE_THE_FUCK_IS_YOUR_JDK
+```
 
 ```bash
 flutter run
